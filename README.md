@@ -1,14 +1,32 @@
-# netflix-eda
-🚀 Just wrapped up my Netflix Titles EDA project!  
+# Netflix Titles EDA
 
-I explored the dataset to uncover insights about Movies and TV Shows, ratings, genres, and release trends.  
-Here are some highlights:  
-- 2019 was the peak year for new titles, followed by a dip in 2020–2021 (pandemic impact).  
-- Drama and Comedy dominate the catalog, while TV-MA is the most frequent rating.  
-- Movies show much wider variation in duration compared to TV Shows.  
+## Overview
+This project explores the Netflix dataset through exploratory data analysis (EDA).  
+The dataset includes Movies and TV Shows with attributes such as type, title, director, cast, country, release year, rating, duration, and genres.
 
-📊 This project sharpened my skills in Python, Pandas, Seaborn, and storytelling with data.  
-💡 Business takeaway: Netflix could diversify content sources globally and expand niche genres to capture new audiences.  
+## Objectives
+- Understand catalog composition by type, rating, and genre.
+- Identify trends in content additions over time.
+- Highlight data quality issues and propose business insights.
 
-Check out the full analysis in my repository — and I’d love to hear your thoughts on the findings!  
-#DataScience #EDA #Netflix #Python #Visualization
+## Key Findings
+- **2019** was the peak year for new titles added, followed by a dip in 2020–2021 due to pandemic disruptions.  
+- **Drama** and **Comedy** dominate as the most common genres.  
+- **TV-MA** is the most frequent rating, reflecting Netflix’s focus on mature audiences.  
+- Movies show greater variability in duration compared to TV Shows.
+
+## Business Recommendations
+- Diversify content sources by investing in non-U.S. markets (India, South Korea).  
+- Expand niche genres (documentaries, family content) to attract underserved segments.
+
+## Tools & Libraries
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Jupyter Notebook
+
+## How to Run
+1. Clone the repository.  
+2. Install dependencies: `pip install -r requirements.txt`.  
+3. Open `netflix_eda.ipynb` and run cells sequentially.  
+
+## Author
+Ali — Data Visualization & AI Enthusiast
